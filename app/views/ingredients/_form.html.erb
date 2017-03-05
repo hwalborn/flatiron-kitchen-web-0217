@@ -1,0 +1,4 @@
+<%= form_for @ingredient do |f| %>
+  <%= f.text_field "name", {value: @ingredient.name} %>
+  <%= f.submit %>
+<% end %>

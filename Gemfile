@@ -33,10 +33,12 @@ group :doc do
 end
 
 group :development do
+  gem 'byebug'
   gem "pry", '~> 0.10.3'
 end
 
 group :test do
+  gem "pry", '~> 0.10.3'
   gem 'rspec-collection_matchers', '~> 1.1.2'
   gem 'rspec-rails', '~> 3.3.3'
   gem 'capybara', '~> 2.5.0'
